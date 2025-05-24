@@ -4,7 +4,9 @@ import Hero from "./hero";
 import { useState } from "react";
 import Project1 from "./project-1";
 import Project2 from "./project-2";
-import Code from "./Code";
+import Code from "./code";
+import Other from "./other";
+import Footer from "./footer";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import Navigation from "./components/Navigation";
 
@@ -32,6 +34,8 @@ export default function Home() {
             <Project1 />
             <Project2 />
             <Code />
+            <Other />
+            <Footer />
           </div>
         </ParallaxBanner>
       </ParallaxProvider>

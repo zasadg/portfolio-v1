@@ -12,7 +12,7 @@ export default function Hero() {
 
     return (
         <>
-            <section className="relative min-h-screen w-full lg:px-16 xl:px-40 py-16 flex flex-col justify-center items-left bg-blue-500">
+            <section className="relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left bg-yellow-500">
                 <div className="flex gap-16">
                     <div className="flex-[0.4]">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">Project 1</h1>
@@ -64,7 +64,7 @@ export default function Hero() {
             </section>
 
             {isExpanded && (
-                <section className="max-w-full px-16 py-24 relative bg-yellow-500" id="project-details">
+                <section className="max-w-full lg:px-40 px-16 py-16 relative bg-orange-500" id="project-details">
                     <div className="">
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6">Project Details</h2>

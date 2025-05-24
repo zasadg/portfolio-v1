@@ -137,21 +137,6 @@
   font-weight: 400;
 }
 
-.horizontal-card{
-  border-radius: 8px;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px;
-  width: 100%;
-  max-width: 100vw;
-  background-color: #4B51BF;
-  position: relative;
-  overflow: visible;
-  /* flex bg-purple-800 rounded-xl p-8 mb-8 items-center justify-between shadow-lg w-full max-w-3xl */
-}
-
 blockquote{
   padding:1.2em 24px 1.2em 40px;
   border-left:4px solid #0e476d ;
