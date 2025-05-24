@@ -12,10 +12,10 @@ export default function Hero() {
 
     return (
         <>
-            <section className="relative min-h-screen w-full lg:px-16 xl:px-40 py-16 flex flex-col justify-center items-left bg-blue-500">
+            <section className="relative min-h-screen w-full lg:px-16 xl:px-40 py-16 flex flex-col justify-center items-left bg-purple-500">
                 <div className="flex gap-16">
                     <div className="flex-[0.4]">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">Project 1</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">Project 2</h1>
                         <p className="text-lg text-gray-700 mb-4">
                             Your text content goes here. This is the left side of the layout.
                         </p>

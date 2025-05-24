@@ -3,6 +3,8 @@ import Image from "next/image";
 import Hero from "./hero";
 import { useState } from "react";
 import Project1 from "./project-1";
+import Project2 from "./project-2";
+import Code from "./Code";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import Navigation from "./components/Navigation";
 
@@ -28,6 +30,8 @@ export default function Home() {
           <div className="relative">
             <Hero />
             <Project1 />
+            <Project2 />
+            <Code />
           </div>
         </ParallaxBanner>
       </ParallaxProvider>
