@@ -119,3 +119,46 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+blockquote{
+  padding:1.2em 24px 1.2em 40px;
+  border-left:4px solid #0e476d ;
+  font-size: 1em;
+  /* line-height:1.6; */
+  position: relative;
+  background:rgba(237, 237, 237, 0.634);
+}
+
+blockquote::before{
+  content: "\201C";
+  color:#0e476d;
+  font-size:3em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-weight: 600;
+  margin-top:1em;
+}
+.button{
+  background-color: #2D3748;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

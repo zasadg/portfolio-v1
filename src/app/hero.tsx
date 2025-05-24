@@ -8,21 +8,7 @@ import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Hero() {
     return (
-        <ParallaxProvider>
-            <ParallaxBanner
-                layers={[
-                    {
-                        image: '/static/banner-background.svg',
-                        speed: -60,
-                    },
-                    {
-                        image: '/static/banner-foreground.svg',
-                        speed: -100,
-                    },
-                ]}
-                className="bg-[#e4e4e4]"
-            >
-                <section className="relative min-h-screen max-w-full px-16 flex flex-col justify-center items-center">
+                <section className="relative min-h-screen max-w-full px-16 flex flex-col justify-center items-left">
                     <motion.div
                         className=""
                         initial={{ opacity: 0, y: 20 }}
@@ -79,7 +65,6 @@ export default function Hero() {
                         </section>
                     </motion.div>
                 </section>
-            </ParallaxBanner>
-        </ParallaxProvider>
+
     );
 }
