@@ -13,8 +13,8 @@ export default function Hero() {
     return (
         <>
             <section className="relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left bg-blue-500">
-                <div className="flex gap-16">
-                    <div className="flex-[0.4]">
+                <div className="flex flex-col lg:flex-row gap-16">
+                    <div className="flex-[0.4] w-full">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">Project 2</h1>
                         <p className="text-lg text-gray-700 mb-4">
                             Your text content goes here. This is the left side of the layout.
@@ -53,7 +53,7 @@ export default function Hero() {
                             {isExpanded ? 'Show Less' : 'Read More'}
                         </button>
                     </div>
-                    <div className="flex-[0.6]">
+                    <div className="flex-[0.6] w-full">
                         <img
                             src="/projects_images/project_1.png"
                             alt="Project image"
@@ -78,7 +78,7 @@ export default function Hero() {
                             </p>
                         </div>
                         
-                        <div className="grid grid-cols-2 gap-8">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
                                 <img 
                                     src="/projects_images/project_1.png" 

@@ -8,7 +8,7 @@ import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Hero() {
     return (
-                <section className="relative min-h-screen max-w-full px-16 lg:px-16 xl:px-40 flex flex-col justify-center items-left bg-teal-500">
+                <section className="min-h-screen relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left bg-teal-500">
                     <motion.div
                         className=""
                         initial={{ opacity: 0, y: 20 }}
