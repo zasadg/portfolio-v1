@@ -121,6 +121,7 @@
 }
 
 .project-role{
+  padding-top: 24px;
   font-size: 18px;
   font-weight: 600;
 }
@@ -132,9 +133,10 @@
 }
 
 .project-description{
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
+  max-width: 800px;
 }
 
 blockquote{
@@ -177,4 +179,8 @@ blockquote span{
   border: none;
   outline: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details{
+  background-color:rgba(126, 126, 126, 0.23);
 }

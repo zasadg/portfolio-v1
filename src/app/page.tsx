@@ -12,7 +12,7 @@ import Navigation from "./components/navigation";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative bg-white">
       <Navigation />
       <ParallaxProvider>
         <ParallaxBanner
@@ -20,23 +20,23 @@ export default function Home() {
                 {
                     image: '/static/banner-background.svg',
                     speed: -60,
+                    opacity: [0, 0], // Reduced opacity
                 },
                 {
                     image: '/static/banner-foreground.svg',
-                    speed: -100,
+                    speed: -200,
+                    opacity: [0.3, 0.3], // Reduced opacity
                 },
             ]}
-            className="bg-[#e4e4e4]"
+            className="bg-white"
             style={{ minHeight: '100vh' }}
         >
-          <div className="relative">
             <Hero />
             <Project1 />
             <Project2 />
             <Code />
             <Other />
             <Footer />
-          </div>
         </ParallaxBanner>
       </ParallaxProvider>
     </div>
