@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaLinkedin, FaTwitter, FaDribbble, FaMedium } from "react-icons/fa";
-import { FiGlobe } from "react-icons/fi";
+import { FiGlobe, FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import { useState } from 'react';
@@ -12,12 +12,18 @@ export default function Hero() {
 
     return (
         <>
-            <section className="relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left bg-yellow-500">
+            <section className="relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left">
                 <div className="flex flex-col lg:flex-row gap-16">
                     <div className="flex-[0.4] w-full">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">Project 1</h1>
-                        <p className="text-lg text-gray-700 mb-4">
-                            Your text content goes here. This is the left side of the layout.
+                        <p className="text-black text-lg font-medium">
+                            <a href="https://endash.ai" className="flex items-center gap-2 text-[#4B51BF] hover:opacity-80" target="_blank" rel="noopener noreferrer">
+                                endash.ai
+                                <FiExternalLink className="w-4 h-4" />
+                            </a>
+                        </p>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">Data analytics platform</h1>
+                        <p className="text-lg mb-4">
+                        Endash.AI is a platform designed to simplify complex data workflows, enabling teams to focus on analyzing insights rather than managing fragmented data. The project aimed to assist small to mid-sized e-commerce businesses in transforming raw, unstructured data into real-time, actionable insights without requiring deep technical expertise..
                         </p>
 
                         <div className="flex gap-3 mb-8">
@@ -55,7 +61,7 @@ export default function Hero() {
                     </div>
                     <div className="flex-[0.6] w-full">
                         <img
-                            src="/projects_images/project_1.png"
+                            src="/projects_images/project-1_thumbnail.png"
                             alt="Project image"
                             className="w-full h-auto"
                         />
@@ -64,17 +70,16 @@ export default function Hero() {
             </section>
 
             {isExpanded && (
-                <section className="max-w-full lg:px-40 px-16 py-16 relative bg-orange-500" id="project-details">
+                <section className="max-w-full lg:px-40 px-16 py-16 relative" id="project-details">
                     <div className="">
                         <div className="mb-8">
-                            <h2 className="text-3xl font-bold mb-6">Project Details</h2>
+                            <h2 className="text-3xl font-bold mb-6">Data analytics platform</h2>
 
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag">UX • Interface Design • Code</p>
     
                             <p className="project-description">
-                                Detailed description of your project goes here. You can add multiple paragraphs
-                                and sections to explain your work in depth.
+                            Developed a system that consolidates data from multiple e-commerce channels, addressing issues of data fragmentation and accessibility.
                             </p>
                         </div>
                         

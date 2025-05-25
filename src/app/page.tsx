@@ -8,7 +8,7 @@ import Code from "./code";
 import Other from "./other";
 import Footer from "./footer";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
-import Navigation from "./components/Navigation";
+import Navigation from "./components/navigation";
 
 export default function Home() {
   return (

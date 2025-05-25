@@ -64,7 +64,7 @@ export default function Hero() {
             </section>
 
             {isExpanded && (
-                <section className="max-w-full lg:px-40 px-16 py-16 relative bg-green-500" id="project-2-details">
+                <section className="max-w-full lg:px-40 px-16 py-16 relative bg-blue-500" id="project-2-details">
                     <div className="">
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6">Project Details</h2>

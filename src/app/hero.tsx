@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaLinkedin, FaTwitter, FaDribbble, FaMedium } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaDribbble, FaMedium, FaEnvelope } from "react-icons/fa";
 import { FiGlobe } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Hero() {
     return (
-                <section className="min-h-screen relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left bg-teal-500">
+                <section className="hero min-h-screen relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left">
                     <motion.div
                         className=""
                         initial={{ opacity: 0, y: 20 }}
@@ -52,14 +52,11 @@ export default function Hero() {
                                 <a href="https://www.linkedin.com/in/khang-nmt/" target="_blank">
                                     <FaLinkedin />
                                 </a>
-                                <a href="https://twitter.com" target="_blank">
-                                    <FaTwitter />
-                                </a>
-                                <a href="https://dribbble.com" target="_blank">
-                                    <FaDribbble />
-                                </a>
                                 <a href="https://github.com/zasadg" target="_blank">
                                     <FaGithub />
+                                </a>
+                                <a href="mailto:khangnmt1502@gmail.com" target="_blank">
+                                    <FaEnvelope />
                                 </a>
                             </div>
                         </section>
