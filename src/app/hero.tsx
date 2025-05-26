@@ -8,7 +8,7 @@ import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Hero() {
     return (
-                <section className="hero min-h-screen relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left">
+                <section className="hero min-h-screen relative max-w-5xl lg:px-40 px-16 py-16 flex flex-col justify-center items-left text-white">
                     <motion.div
                         className=""
                         initial={{ opacity: 0, y: 20 }}
@@ -18,17 +18,17 @@ export default function Hero() {
                         <section className="">
                             <h1 className="text-4xl md:text-5xl font-bold mb-6">Khang Nguyen</h1>
 
-                            <p className="text-lg md:text-xl leading-relaxed text-gray-800">
+                            <p className="text-lg leading-relaxed">
                                 I&apos;m a Senior Product Designer building tools that people use every
                                 day to work, create, and collaborate on the internet.
                             </p>
 
-                            <p className="mt-4 text-lg md:text-xl leading-relaxed text-gray-800">
+                            <p className="mt-4 text-lg leading-relaxed">
                                 My job is to design & code to enable people to reach their goals.
                             </p>
 
-                            <div className="mt-8 text-gray-900 space-y-1 text-base">
-                                <div className="font-semibold">Currently</div>
+                            <div className="mt-8 space-y-1 text-base">
+                                <div className="font-bold">Currently</div>
                                 <div className="flex items-center gap-2">
                                     🛠️
                                     <span>

@@ -2,20 +2,41 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState, useEffect } from 'react';
 
 export default function Navigation() {
     const pathname = usePathname();
+    const [isHeroSection, setIsHeroSection] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const heroSection = document.querySelector('.hero-section');
+            if (heroSection) {
+                const rect = heroSection.getBoundingClientRect();
+                setIsHeroSection(rect.bottom > 0);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Initial check
+
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const isActive = (path: string) => {
         return pathname === path;
     };
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xs border-b border-gray-200">
+        <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-xs border-b transition-colors duration-300 ${
+            isHeroSection ? 'border-[#535353]' : 'border-[#d6d6d6]'
+        }`}>
             <div className="max-w-full lg:px-40 px-16">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
-                        <Link href="/" className="text-xl font-semibold">
+                        <Link href="/" className={`text-xl font-semibold transition-colors duration-300 ${
+                            isHeroSection ? 'text-white' : 'text-black'
+                        }`}>
                             KN
                         </Link>
                     </div>
@@ -23,30 +44,30 @@ export default function Navigation() {
                     <div className="flex items-center space-x-8">
                         <Link 
                             href="/projects" 
-                            className={`text-sm font-medium transition-colors ${
+                            className={`text-sm font-medium transition-colors duration-300 ${
                                 isActive('/projects') 
-                                    ? 'text-black' 
-                                    : 'text-gray-500 hover:text-black'
+                                    ? isHeroSection ? 'text-white' : 'text-black'
+                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
                             }`}
                         >
                             Projects
                         </Link>
                         <Link 
                             href="/development" 
-                            className={`text-sm font-medium transition-colors ${
+                            className={`text-sm font-medium transition-colors duration-300 ${
                                 isActive('/development') 
-                                    ? 'text-black' 
-                                    : 'text-gray-500 hover:text-black'
+                                    ? isHeroSection ? 'text-white' : 'text-black'
+                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
                             }`}
                         >
                             Development
                         </Link>
                         <Link 
                             href="/journal" 
-                            className={`text-sm font-medium transition-colors ${
+                            className={`text-sm font-medium transition-colors duration-300 ${
                                 isActive('/journal') 
-                                    ? 'text-black' 
-                                    : 'text-gray-500 hover:text-black'
+                                    ? isHeroSection ? 'text-white' : 'text-black'
+                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
                             }`}
                         >
                             Journal
