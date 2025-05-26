@@ -12,7 +12,7 @@ export default function Project1() {
 
     return (
         <>
-            <section className="relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left">
+            <section className="relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left">
                 <div className="flex flex-col lg:flex-row gap-16">
                     <div className="flex-[0.4] w-full">
                         <p className="text-black text-lg font-medium">
@@ -21,17 +21,17 @@ export default function Project1() {
                                 <FiExternalLink className="w-4 h-4" />
                             </a>
                         </p>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Data analytics platform</h1>
-                        <p className="text-lg mb-8">
-                            Endash.AI is a platform designed to simplify complex data workflows, enabling teams to focus on analyzing insights rather than managing fragmented data. The project aimed to assist small to mid-sized e-commerce businesses in transforming raw, unstructured data into real-time, actionable insights without requiring deep technical expertise..
+                        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#4B51BF]">Data analytics platform</h1>
+                        <p className="text-md mb-4">
+                            Endash.AI is a platform designed to simplify complex data workflows, enabling teams to focus on analyzing insights rather than managing fragmented data. The project aimed to assist small to mid-sized e-commerce businesses in transforming raw, unstructured data into real-time, actionable insights without requiring deep technical expertise.
                         </p>
 
-                        <div className="flex gap-3 mb-8">
+                        {/* <div className="flex gap-3 mb-8">
                             <span className="px-2 py-1.5 rounded-md bg-blue-100 text-black text-sm font-medium border border-blue-200">Design</span>
                             <span className="px-2 py-1.5 rounded-md bg-purple-100 text-black text-sm font-medium border border-purple-200">Development</span>
                             <span className="px-2 py-1.5 rounded-md bg-green-100 text-black text-sm font-medium border border-green-200">Product</span>
                             <span className="px-2 py-1.5 rounded-md bg-orange-100 text-black text-sm font-medium border border-orange-200">Strategy</span>
-                        </div>
+                        </div> */}
 
                         <blockquote className="mb-8">
                             Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. 
@@ -191,7 +191,7 @@ export default function Project1() {
                         <img
                             src="/projects_images/details-1-2.png"
                             alt="Project detail 1"
-                            className="w-full h-auto py-8"
+                            className="w-full h-auto"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                             <div className="space-y-4 lg:col-span-2">

@@ -31,7 +31,7 @@ export default function Navigation() {
         <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-xs border-b transition-colors duration-300 ${
             isHeroSection ? 'border-[#535353]' : 'border-[#d6d6d6]'
         }`}>
-            <div className="max-w-full lg:px-40 px-16">
+            <div className="max-w-full lg:px-32 px-16">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <Link href="/" className={`text-xl font-semibold transition-colors duration-300 ${

@@ -12,7 +12,7 @@ export default function Hero() {
 
     return (
         <>
-            <section className="relative min-h-screen relative w-full lg:px-40 px-16 py-16 flex flex-col justify-center items-left bg-red-500">
+            <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left bg-red-500">
                 <div className="">
                     <div className="">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">Code</h1>
