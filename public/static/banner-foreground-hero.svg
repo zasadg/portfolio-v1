@@ -10,14 +10,14 @@
       .animated-path {
         stroke-dasharray: 1000;
         stroke-dashoffset: 1000;
-        animation: draw 12s ease-in-out infinite;
+        animation: draw 8s ease-in-out infinite;
         shape-rendering: crispEdges;
         vector-effect: non-scaling-stroke;
       }
       .animated-path-2 {
         stroke-dasharray: 1000;
         stroke-dashoffset: 1000;
-        animation: draw 15s ease-in-out infinite;
+        animation: draw 12s ease-in-out infinite;
         shape-rendering: crispEdges;
         vector-effect: non-scaling-stroke;
       }

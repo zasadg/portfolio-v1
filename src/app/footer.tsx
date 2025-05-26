@@ -10,7 +10,7 @@ import { useState } from 'react';
 export default function Footer() {
     return (
         <footer className="bg-[#131313] w-full py-12 flex flex-col items-center justify-center">
-            <img src="/hand.png" alt="Hand logo" className="w-16 h-16 rounded-full mb-4" />
+            <img src="/logo.png" alt="cat logo" className="w-14 h-auto rounded-full mb-4" />
             <div className="text-white text-lg mb-2 text-center">
                 Thanks for reading! Feel free to get in touch at
             </div>

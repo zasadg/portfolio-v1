@@ -87,15 +87,15 @@ export default function Project2() {
                             alt="Project detail 1"
                             className="w-full h-auto"
                         />
-                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                            <div className="space-y-4 lg:col-span-2">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                            <div className="space-y-4">
                                 <img
-                                    src="/projects_images/details-2-1-2.png"
+                                    src="/projects_images/details-2-1-3.png"
                                     alt="Project detail 1"
                                     className="w-full h-auto"
                                 />
                                 <img
-                                    src="/projects_images/details-2-1-3.png"
+                                    src="/projects_images/details-2-1-2.png"
                                     alt="Project detail 1"
                                     className="w-full h-auto"
                                 />
@@ -112,11 +112,11 @@ export default function Project2() {
                                     alt="Project detail 2"
                                     className="w-full h-auto"
                                 />
-                                <img
+                                {/* <img
                                     src="/projects_images/details-2-1-6.png"
                                     alt="Project detail 2"
                                     className="w-full h-auto"
-                                />
+                                /> */}
                             </div>
                         </div>
 
@@ -124,60 +124,11 @@ export default function Project2() {
 
 
                     </div>
+
 
                     <div className="pt-24">
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Experience of property manager relationship</h2>
-                            <p className="project-description">
-                                Conducted extensive user research with e-commerce retailers, marketers, and sales teams to identify pain points. Designed intuitive workflows and dashboards that cater to both technical and non-technical users, reducing cognitive load and enhancing user engagement.
-                            </p>
-                            <h6 className="project-role">Role</h6>
-                            <p className="project-tag">UX research • User interveiw • Insight findings</p>
-
-
-                        </div>
-
-                        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-                            <div className="space-y-4">
-                                <img
-                                    src="/projects_images/details-1-3.png"
-                                    alt="Project detail 3"
-                                    className="w-full h-auto"
-                                />
-                                <p className="text-gray-600">Dashboard with templates to kick start</p>
-                            </div>
-                            <div className="space-y-4">
-                                <img
-                                    src="/projects_images/details-1-4.png"
-                                    alt="Project detail 4"
-                                    className="w-full h-auto"
-                                />
-                                <p className="text-gray-600">Data pipeline to extract insights</p>
-                            </div>
-                            <div className="space-y-4">
-                                <img
-                                    src="/projects_images/details-1-5.png"
-                                    alt="Project detail 5"
-                                    className="w-full h-auto"
-                                />
-                                <p className="text-gray-600">Dashboard with templates to kick start</p>
-                            </div>
-                            <div className="space-y-4">
-                                <img
-                                    src="/projects_images/details-1-6.png"
-                                    alt="Project detail 6"
-                                    className="w-full h-auto"
-                                />
-                                <p className="text-gray-600">Dashboard with templates to kick start</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div className="pt-24">
-                        <div className="mb-8">
-                            <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Data workflow documentation</h2>
                             <p className="project-description">
                                 Comprehensive documentation of data workflows and processes, making it easier for teams to understand and maintain the data pipeline.
                             </p>
@@ -200,7 +151,7 @@ export default function Project2() {
                                     alt="Project detail 7"
                                     className="w-full h-auto"
                                 />
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
+                        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
                             <div className="space-y-4">
                                 <img
                                     src="/projects_images/details-2-2-4.png"
@@ -220,18 +171,43 @@ export default function Project2() {
                                         alt="Project detail 7"
                                         className="w-full h-auto"
                                     />
-                                    <img
-                                        src="/projects_images/details-2-2-7.png"
-                                        alt="Project detail 7"
-                                        className="w-full h-auto"
-                                    />
                                 
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
 
+                    <div className="pt-24">
+                        <div className="mb-8">
+                            <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Documentation & Handoff</h2>
+                            <p className="project-description">
+                                Created comprehensive documentation and handoff materials to ensure smooth knowledge transfer and maintainability of the system.
+                            </p>
+                            <h6 className="project-role">Role</h6>
+                            <p className="project-tag">Documentation • Technical Writing • Knowledge Transfer</p>
+                        </div>
+                        {/*Images grid 3*/}
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                            <div className="space-y-4 lg:col-span-2">
+                        <img
+                            src="/projects_images/details-2-1-9.png"
+                            alt="Documentation overview"
+                            className="w-full h-auto"
+                        />
+                        </div>
+                        <img
+                            src="/projects_images/details-2-2-6.png"
+                            alt="Technical specifications"
+                            className="w-full h-auto"
+                        />
+                        <img
+                            src="/projects_images/details-2-2-7.png"
+                            alt="API documentation"
+                            className="w-full h-auto"
+                        />
+                    </div>
+</div>
                 </section>
             )}
         </>

@@ -33,12 +33,13 @@ export default function Navigation() {
         }`}>
             <div className="max-w-full lg:px-32 px-16">
                 <div className="flex items-center justify-between h-16">
-                    <div className="flex items-center">
-                        <Link href="/" className={`text-xl font-semibold transition-colors duration-300 ${
+                    <div className="flex items-center justify-center h-1/2">
+                        <Link href="/" className={`text-xl font-semibold transition-colors duration-300 flex items-center gap-2 ${
                             isHeroSection ? 'text-white' : 'text-black'
                         }`}>
-                            KN
-                        </Link>
+                            <img src="/logo.png" alt="cat logo" className="w-auto h-8 rounded-full" />
+                            <span>KnM</span>
+                        </Link> 
                     </div>
                     
                     <div className="flex items-center space-x-8">

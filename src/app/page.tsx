@@ -9,6 +9,7 @@ import Other from "./other";
 import Footer from "./footer";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import Navigation from "./components/navigation";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -54,7 +55,8 @@ export default function Home() {
             <Code />
             <Other />
             <Footer />
-            </ParallaxBanner>
+        </ParallaxBanner>
+        <ScrollToTop />
       </ParallaxProvider>
     </div>
   );

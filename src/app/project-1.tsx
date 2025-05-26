@@ -283,6 +283,22 @@ export default function Project1() {
                         </div>
                     </div>
 
+                    <div className="pt-24">
+                        <div className="mb-8">
+                            <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Project Walkthrough</h2>
+                            <p className="project-description">
+                                Watch a detailed walkthrough of the project implementation and key features.
+                            </p>
+                        </div>
+                        <div className="aspect-video w-full">
+                            <iframe
+                                src="https://www.loom.com/embed/485ed363194a47f3ab628780611122fb?sid=a590cd35-8510-4f0b-823a-a4456deb7d66"
+                                allowFullScreen
+                                className="w-full h-full rounded-lg shadow-lg"
+                            ></iframe>
+                        </div>
+                    </div>
+
                 </section>
             )}
         </>
