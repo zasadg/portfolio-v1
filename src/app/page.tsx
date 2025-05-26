@@ -19,17 +19,17 @@ export default function Home() {
             layers={[
                 {
                     image: '/static/banner-background.svg',
-                    speed: -60,
+                    speed: -80,
                     opacity: [0, 0], // Reduced opacity
                 },
                 {
                     image: '/static/banner-foreground.svg',
                     speed: -200,
-                    opacity: [0.3, 0.3], // Reduced opacity
+                    opacity: [0.1, 0.1], // Reduced opacity
+                    className: 'w-full object-cover',
                 },
             ]}
-            className="bg-white"
-            style={{ minHeight: '100vh' }}
+           
         >
             <Hero />
             <Project1 />

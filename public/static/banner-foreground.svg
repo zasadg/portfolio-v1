@@ -1,10 +1,40 @@
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" text-rendering="optimizeLegibility">
   <defs>
-    <pattern id="shapes" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="2" fill="#646464"></circle>
-      <rect x="40" y="40" width="3" height="3" fill="#646464"></rect>
-      <path d="M70 70 l10 5 l-5 10" stroke="#646464" stroke-width="1" fill="none"></path>
+    <style>
+      @keyframes draw {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+      .animated-path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: draw 12s ease-in-out infinite;
+        shape-rendering: crispEdges;
+        vector-effect: non-scaling-stroke;
+      }
+      .animated-path-2 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: draw 15s ease-in-out infinite;
+        shape-rendering: crispEdges;
+        vector-effect: non-scaling-stroke;
+      }
+    </style>
+    <pattern id="ps-pattern" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
+      <!-- Random triangle -->
+      <path d="M30 20 L45 5 L60 20 Z" fill="none" stroke="black" stroke-width="2.5" class="animated-path"/>
+      
+      <!-- Random circle -->
+      <circle cx="120" cy="100" r="8" fill="none" stroke="black" stroke-width="2.5" class="animated-path-2"/>
+      
+      <!-- Random cross -->
+      <g transform="translate(60,140)">
+        <line x1="-6" y1="-6" x2="6" y2="6" stroke="black" stroke-width="2.5" class="animated-path"/>
+        <line x1="-6" y1="6" x2="6" y2="-6" stroke="black" stroke-width="2.5" class="animated-path"/>
+      </g>
     </pattern>
   </defs>
-  <rect width="100%" height="100%" fill="url(#shapes)"></rect>
+  <rect width="100%" height="100%" fill="url(#ps-pattern)"/>
 </svg>

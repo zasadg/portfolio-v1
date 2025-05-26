@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import { useState } from 'react';
 
-export default function Hero() {
+export default function Project1() {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
@@ -34,7 +34,7 @@ export default function Hero() {
                         </div>
 
                         <blockquote className="mb-8">
-                            Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while. That's because they were able to connect experiences they've had and synthesize new things.
+                            Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. 
                             <span>Steve Jobs</span>
                         </blockquote>
 
