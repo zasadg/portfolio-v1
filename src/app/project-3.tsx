@@ -73,29 +73,19 @@ export default function Project3() {
                         {/*Images grid */}
                         {/* <h1 className="text-gray-600 text-lg font-medium">Dashboard with templates to kick start</h1> */}
                         <img
-                            src="/projects_images/details-3-1-1.png"
+                            src="/projects_images/details-3-1-2.png"
                             alt="Project detail 1"
                             className="w-full h-auto py-8"
-                        />
-                        <img
-                            src="/projects_images/details-2-1-7.png"
-                            alt="Project detail 1"
-                            className="w-full h-auto"
-                        />
-                        <img
-                            src="/projects_images/details-2-1-8.png"
-                            alt="Project detail 1"
-                            className="w-full h-auto"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
                                 <img
-                                    src="/projects_images/details-2-1-3.png"
+                                    src="/projects_images/details-3-1-8.png"
                                     alt="Project detail 1"
                                     className="w-full h-auto"
                                 />
                                 <img
-                                    src="/projects_images/details-2-1-2.png"
+                                    src="/projects_images/details-3-1-6.png"
                                     alt="Project detail 1"
                                     className="w-full h-auto"
                                 />
@@ -103,13 +93,18 @@ export default function Project3() {
 
                             <div className="space-y-4">
                                 <img
-                                    src="/projects_images/details-2-1-4.png"
+                                    src="/projects_images/details-3-1-3.png"
                                     alt="Project detail 2"
                                     className="w-full h-auto"
                                 />
                                 <img
-                                    src="/projects_images/details-2-1-5.png"
+                                    src="/projects_images/details-3-1-4.png"
                                     alt="Project detail 2"
+                                    className="w-full h-auto"
+                                />
+                                <img
+                                    src="/projects_images/details-3-1-1-1.png"
+                                    alt="Project detail 7"
                                     className="w-full h-auto"
                                 />
                                 {/* <img
@@ -137,24 +132,15 @@ export default function Project3() {
                         </div>
                         {/*Images grid */}
                         <img
-                                    src="/projects_images/details-2-2-1.png"
+                                    src="/projects_images/details-3-1-5.png"
                                     alt="Project detail 7"
                                     className="w-full h-auto"
                                 />
-                                 <img
-                                    src="/projects_images/details-2-2-2.png"
-                                    alt="Project detail 7"
-                                    className="w-full h-auto"
-                                />
-                                 <img
-                                    src="/projects_images/details-2-2-3.png"
-                                    alt="Project detail 7"
-                                    className="w-full h-auto"
-                                />
-                        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
+
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
                             <div className="space-y-4">
                                 <img
-                                    src="/projects_images/details-2-2-4.png"
+                                    src="/projects_images/details-3-1-9.png"
                                     alt="Project detail 7"
                                     className="w-full h-auto"
                                 />
@@ -162,12 +148,7 @@ export default function Project3() {
                             <div className="space-y-4">
                                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
                                     <img
-                                        src="/projects_images/details-2-2-5.png"
-                                        alt="Project detail 7"
-                                        className="w-full h-auto"
-                                    />
-                                    <img
-                                        src="/projects_images/details-2-2-6.png"
+                                        src="/projects_images/details-3-1-10.png"
                                         alt="Project detail 7"
                                         className="w-full h-auto"
                                     />
@@ -175,7 +156,7 @@ export default function Project3() {
                                 </div>
                             </div>
 
-                        </div> */}
+                        </div>
                     </div>
 
 
