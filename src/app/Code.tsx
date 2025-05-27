@@ -15,7 +15,7 @@ export default function Hero() {
             <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left">
                 <div className="">
                     <div className="">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Code</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Coding</h1>
                         <p className="text-lg text-gray-700 pb-16">
                             Your text content goes here. This is the left side of the layout.
                         </p>

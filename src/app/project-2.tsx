@@ -59,7 +59,7 @@ export default function Project2() {
             </section>
 
             {isExpanded && (
-                <section className="details max-w-full lg:px-40 px-16 py-16 relative" id="project-details-2">
+                <section className="details max-w-full lg:px-32 px-16 py-16 relative" id="project-details-2">
                     <div className="">
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Solving agent workflow problems</h2>

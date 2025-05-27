@@ -4,6 +4,7 @@ import Hero from "./hero";
 import { useState } from "react";
 import Project1 from "./project-1";
 import Project2 from "./project-2";
+import Project3 from "./project-3";
 import Code from "./code";
 import Other from "./other";
 import Footer from "./footer";
@@ -52,6 +53,7 @@ export default function Home() {
         >
             <Project1 />
             <Project2 />
+            <Project3 />
             <Code />
             <Other />
             <Footer />
