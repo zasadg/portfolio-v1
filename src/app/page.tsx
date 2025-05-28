@@ -6,8 +6,8 @@ import Code from "./code";
 import Other from "./other";
 import Footer from "./footer";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
-import Navigation from "./components/navigation";
-import ScrollToTop from "./components/scrollToTop";
+import Navigation from "./components/Navigation";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function Home() {
   return (
