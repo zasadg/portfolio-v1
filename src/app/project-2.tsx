@@ -51,6 +51,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -75,6 +76,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto py-8"
+                            loading="lazy"
                         />
                         <Image
                             src="/projects_images/details-2-1-7.png"
@@ -82,6 +84,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                         <Image
                             src="/projects_images/details-2-1-8.png"
@@ -89,6 +92,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
@@ -98,6 +102,7 @@ export default function Project2() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-2-1-2.png"
@@ -105,6 +110,7 @@ export default function Project2() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                             </div>
 
@@ -115,6 +121,7 @@ export default function Project2() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-2-1-5.png"
@@ -122,6 +129,7 @@ export default function Project2() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                             </div>
                         </div>
@@ -147,6 +155,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                         <Image
                             src="/projects_images/details-2-2-2.png"
@@ -154,6 +163,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                         <Image
                             src="/projects_images/details-2-2-3.png"
@@ -161,6 +171,7 @@ export default function Project2() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                     </div>
 
@@ -181,6 +192,7 @@ export default function Project2() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                             </div>
                             <Image
@@ -189,6 +201,7 @@ export default function Project2() {
                                 width={1200}
                                 height={800}
                                 className="w-full h-auto"
+                                loading="lazy"
                             />
                             <Image
                                 src="/projects_images/details-2-2-7.png"
@@ -196,6 +209,7 @@ export default function Project2() {
                                 width={1200}
                                 height={800}
                                 className="w-full h-auto"
+                                loading="lazy"
                             />
                         </div>
                     </div>

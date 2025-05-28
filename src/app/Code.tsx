@@ -31,6 +31,7 @@ export default function Hero() {
                                         width={520}
                                         height={292}
                                         className="absolute top-1/2 right-0 -translate-y-1/2 -translate-x-1/8 w-[520px] max-w-none drop-shadow-2xl rounded-lg z-20"
+                                        loading="lazy"
                                     />
                                 </div>
                                 {/* Mobile Image */}
@@ -41,6 +42,7 @@ export default function Hero() {
                                         width={520}
                                         height={292}
                                         className="w-full rounded-lg"
+                                        loading="lazy"
                                     />
                                 </div>
                             </div>
@@ -65,6 +67,7 @@ export default function Hero() {
                                         width={520}
                                         height={292}
                                         className="absolute top-1/2 right-0 -translate-y-1/2 -translate-x-1/8 w-[520px] max-w-none drop-shadow-2xl rounded-xl z-20"
+                                        loading="lazy"
                                     />
                                 </div>
                                 {/* Mobile Image */}
@@ -75,6 +78,7 @@ export default function Hero() {
                                         width={520}
                                         height={292}
                                         className="w-full rounded-xl"
+                                        loading="lazy"
                                     />
                                 </div>
                             </div>

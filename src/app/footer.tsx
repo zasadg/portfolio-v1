@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Footer() {
     return (
         <footer className="bg-[#131313] w-full py-12 flex flex-col items-center justify-center">
-            <Image src="/logo.png" alt="cat logo" width={56} height={56} className="w-14 h-auto rounded-full mb-4" />
+            <Image src="/logo.png" alt="cat logo" width={56} height={56} className="w-14 h-auto rounded-full mb-4" loading="lazy" />
             <div className="text-white text-lg mb-4 text-center">
                 Thanks for reading! Feel free to get in touch
             </div>

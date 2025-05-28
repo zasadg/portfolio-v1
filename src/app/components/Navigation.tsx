@@ -68,7 +68,7 @@ export default function Navigation() {
                         <Link href="/" className={`text-xl font-semibold transition-colors duration-300 flex items-center gap-2 ${
                             isHeroSection ? 'text-white' : 'text-black'
                         }`}>
-                            <Image src="/logo.png" alt="cat logo" width={32} height={32} className="w-auto h-8 rounded-full" />
+                            <Image src="/logo.png" alt="cat logo" width={32} height={32} className="w-auto h-8 rounded-full" loading="lazy" />
                             <span>KnM</span>
                         </Link> 
                     </div>

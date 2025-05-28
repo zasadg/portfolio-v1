@@ -62,6 +62,7 @@ export default function Project1() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -87,6 +88,7 @@ export default function Project1() {
                             width={1200}
                             height={800}
                             className="w-full h-auto py-8"
+                            loading="lazy"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                             <div className="space-y-4 lg:col-span-2">
@@ -96,6 +98,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-4.png"
@@ -103,6 +106,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                             </div>
 
@@ -113,6 +117,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-5.png"
@@ -120,6 +125,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-12.png"
@@ -127,6 +133,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                             </div>
                         </div>
@@ -156,6 +163,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
@@ -166,6 +174,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 {/* <p className="text-gray-600">Data pipeline to extract insights</p> */}
                             </div>
@@ -176,6 +185,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
@@ -186,6 +196,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
@@ -212,6 +223,7 @@ export default function Project1() {
                             width={1200}
                             height={800}
                             className="w-full h-auto"
+                            loading="lazy"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                             <div className="space-y-4 lg:col-span-2">
@@ -221,6 +233,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-10.png"
@@ -228,6 +241,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
@@ -238,6 +252,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 {/* <p className="text-gray-600">Data pipeline to extract insights</p> */}
                             </div>
@@ -264,6 +279,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-14.png"
@@ -271,6 +287,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                             </div>
                             {/* <div className="space-y-4">
@@ -297,6 +314,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-17.png"
@@ -304,6 +322,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-18.png"
@@ -311,6 +330,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-19.png"
@@ -318,6 +338,7 @@ export default function Project1() {
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto"
+                                    loading="lazy"
                                 />
                                 </div>
                             </div>
