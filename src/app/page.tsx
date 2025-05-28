@@ -1,16 +1,13 @@
 "use client";
-import Image from "next/image";
 import Hero from "./hero";
-import { useState } from "react";
 import Project1 from "./project-1";
 import Project2 from "./project-2";
-import Project3 from "./project-3";
 import Code from "./code";
 import Other from "./other";
 import Footer from "./footer";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import Navigation from "./components/navigation";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/scrollToTop";
 
 export default function Home() {
   return (
@@ -53,7 +50,7 @@ export default function Home() {
         >
             <Project1 />
             <Project2 />
-            <Project3 />
+
             <Code />
             <Other />
             <Footer />

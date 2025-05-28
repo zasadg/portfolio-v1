@@ -1,18 +1,10 @@
 "use client";
-
-import { motion } from "framer-motion";
-import { FaLinkedin, FaTwitter, FaDribbble, FaMedium } from "react-icons/fa";
-import { FiGlobe } from "react-icons/fi";
-import { FaGithub } from "react-icons/fa";
-import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
-import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Hero() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <>
-            <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left">
+            <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left" id="code">
                 <div className="">
                     <div className="">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Coding</h1>
@@ -25,26 +17,29 @@ export default function Hero() {
                             <div className="bg-[#4A5A84] rounded-lg flex flex-col md:flex-row items-stretch p-8 md:pr-[36rem] relative overflow-visible min-h-[260px]">
                                 {/* Text Section */}
                                 <div className="flex-1 flex flex-col justify-center text-white z-10 max-w-lg">
-                            <h1 className="text-xl md:text-3xl font-bold pb-4">Alien invasion</h1>
+                                    <h1 className="text-xl md:text-3xl font-bold pb-4">Alien invasion</h1>
                                     <div className="text-xl md:text-xl pb-4">
-                                        Rebuilding the documentation product for e-commerce operators in the VTEX platform.
+                                        A space shooting games for scoring points and compete with coworkers
                                     </div>
                                     <a href="#" className="underline text-white font-semibold text-xl hover:text-purple-200 transition-colors">See more →</a>
                                 </div>
                                 {/* Image Section */}
                                 <div className="hidden md:block">
-                                    <img
+                                    <Image
                                         src="/projects_images/Other_thumbnail_1.png"
                                         alt="code screenshot"
+                                        width={520}
+                                        height={292}
                                         className="absolute top-1/2 right-0 -translate-y-1/2 -translate-x-1/8 w-[520px] max-w-none drop-shadow-2xl rounded-lg z-20"
-                                        
                                     />
                                 </div>
                                 {/* Mobile Image */}
                                 <div className="block md:hidden mt-8">
-                                    <img
+                                    <Image
                                         src="/projects_images/Other_thumbnail_1.png"
                                         alt="code screenshot"
+                                        width={520}
+                                        height={292}
                                         className="w-full rounded-lg"
                                     />
                                 </div>
@@ -53,37 +48,37 @@ export default function Hero() {
 
                         {/* Card Section 2*/}
                         <div className="relative pt-16">
-                            <div className="bg-[#2D3748] rounded-lg flex flex-col md:flex-row items-stretch p-8 md:pr-[36rem] relative overflow-visible min-h-[260px]">
+                            <div className="bg-[#4B51BF] rounded-lg flex flex-col md:flex-row items-stretch p-8 md:pr-[36rem] relative overflow-visible min-h-[260px]">
                                 {/* Text Section */}
                                 <div className="flex-1 flex flex-col justify-center text-white z-10 max-w-lg">
-                            <h1 className="text-xl md:text-3xl font-bold pb-4">Froggy ninja</h1>
+                                    <h1 className="text-xl md:text-3xl font-bold pb-4">Interactive whiteboard</h1>
                                     <div className="text-xl md:text-xl pb-4">
-                                        Rebuilding the documentation product for e-commerce operators in the VTEX platform.
+                                        My personal experience with interact.js and gpt
                                     </div>
-                                    <a href="#" className="underline text-white font-semibold text-xl hover:text-purple-200 transition-colors">See more →</a>
+                                    <a href="https://my-portfolio-2l3f.vercel.app" target="_blank" rel="noopener noreferrer" className="underline text-white font-semibold text-xl hover:text-purple-200 transition-colors">See more →</a>
                                 </div>
                                 {/* Image Section */}
                                 <div className="hidden md:block">
-                                    <img
-                                        src="/projects_images/Other_thumbnail_2.png"
+                                    <Image
+                                        src="/projects_images/Other_3.png"
                                         alt="code screenshot"
-                                        className="absolute top-1/2 right-0 -translate-y-1/2 -translate-x-1/8 w-[520px] max-w-none drop-shadow-2xl rounded-lg z-20"
-                                        
+                                        width={520}
+                                        height={292}
+                                        className="absolute top-1/2 right-0 -translate-y-1/2 -translate-x-1/8 w-[520px] max-w-none drop-shadow-2xl rounded-xl z-20"
                                     />
                                 </div>
                                 {/* Mobile Image */}
                                 <div className="block md:hidden mt-8">
-                                    <img
-                                        src="/projects_images/Other_thumbnail_2.png"
+                                    <Image
+                                        src="/projects_images/Other_3.png"
                                         alt="code screenshot"
-                                        className="w-full rounded-lg"
+                                        width={520}
+                                        height={292}
+                                        className="w-full rounded-xl"
                                     />
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>

@@ -1,10 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaLinkedin, FaTwitter, FaDribbble, FaMedium, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { FiGlobe } from "react-icons/fi";
-import { FaGithub } from "react-icons/fa";
-import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Hero() {
     return (

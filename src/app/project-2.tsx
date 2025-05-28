@@ -1,11 +1,7 @@
 "use client";
-
-import { motion } from "framer-motion";
-import { FaLinkedin, FaTwitter, FaDribbble, FaMedium } from "react-icons/fa";
-import { FiGlobe, FiExternalLink } from "react-icons/fi";
-import { FaGithub } from "react-icons/fa";
-import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
+import { FiExternalLink } from "react-icons/fi";
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Project2() {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -49,9 +45,11 @@ export default function Project2() {
                         </button>
                     </div>
                     <div className="flex-[0.6] w-full">
-                        <img
+                        <Image
                             src="/projects_images/project-2_thumbnail.png"
                             alt="Project image"
+                            width={1200}
+                            height={800}
                             className="w-full h-auto"
                         />
                     </div>
@@ -65,58 +63,66 @@ export default function Project2() {
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Solving agent workflow problems</h2>
 
                             <p className="project-description">
-                                Developed a system that consolidates data from multiple e-commerce channels, addressing issues of data fragmentation and accessibility.
+                            My role involved creating a mobile app for agents that centralized their communication and streamlined how they managed showings. We built a smart scheduling system, complete with integrated maps, which dramatically cut down their prep time (by a whopping 60-80%!). The best part? These changes led to an 18% jump in agent productivity and even contributed to a 32% increase in overall revenue for the business. It was a real win-win!
                             </p>
+                            
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag">UX • Interface Design • Code</p>
                         </div>
-                        {/*Images grid */}
-                        {/* <h1 className="text-gray-600 text-lg font-medium">Dashboard with templates to kick start</h1> */}
-                        <img
+                        <Image
                             src="/projects_images/details-2-1-1.png"
                             alt="Project detail 1"
+                            width={1200}
+                            height={800}
                             className="w-full h-auto py-8"
                         />
-                        <img
+                        <Image
                             src="/projects_images/details-2-1-7.png"
                             alt="Project detail 1"
+                            width={1200}
+                            height={800}
                             className="w-full h-auto"
                         />
-                        <img
+                        <Image
                             src="/projects_images/details-2-1-8.png"
                             alt="Project detail 1"
+                            width={1200}
+                            height={800}
                             className="w-full h-auto"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
-                                <img
+                                <Image
                                     src="/projects_images/details-2-1-3.png"
                                     alt="Project detail 1"
+                                    width={1200}
+                                    height={800}
                                     className="w-full h-auto"
                                 />
-                                <img
+                                <Image
                                     src="/projects_images/details-2-1-2.png"
                                     alt="Project detail 1"
+                                    width={1200}
+                                    height={800}
                                     className="w-full h-auto"
                                 />
                             </div>
 
                             <div className="space-y-4">
-                                <img
+                                <Image
                                     src="/projects_images/details-2-1-4.png"
                                     alt="Project detail 2"
+                                    width={1200}
+                                    height={800}
                                     className="w-full h-auto"
                                 />
-                                <img
+                                <Image
                                     src="/projects_images/details-2-1-5.png"
                                     alt="Project detail 2"
+                                    width={1200}
+                                    height={800}
                                     className="w-full h-auto"
                                 />
-                                {/* <img
-                                    src="/projects_images/details-2-1-6.png"
-                                    alt="Project detail 2"
-                                    className="w-full h-auto"
-                                /> */}
                             </div>
                         </div>
 
@@ -130,84 +136,69 @@ export default function Project2() {
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Experience of property manager relationship</h2>
                             <p className="project-description">
-                                Comprehensive documentation of data workflows and processes, making it easier for teams to understand and maintain the data pipeline.
+                            I helped design a centralized platform that brought all those different tools under one roof, making it much easier to manage listings and engage with clients. We refined communication flows that really sped things up between teams and clients. The result? We managed to streamline the showing process by about 40% and saw a threefold increase in platform traffic. It truly made a difference in how relationships were built and maintained.
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag">Documentation • Process Design • Technical Writing</p>
                         </div>
-                        {/*Images grid */}
-                        <img
-                                    src="/projects_images/details-2-2-1.png"
-                                    alt="Project detail 7"
-                                    className="w-full h-auto"
-                                />
-                                 <img
-                                    src="/projects_images/details-2-2-2.png"
-                                    alt="Project detail 7"
-                                    className="w-full h-auto"
-                                />
-                                 <img
-                                    src="/projects_images/details-2-2-3.png"
-                                    alt="Project detail 7"
-                                    className="w-full h-auto"
-                                />
-                        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
-                            <div className="space-y-4">
-                                <img
-                                    src="/projects_images/details-2-2-4.png"
-                                    alt="Project detail 7"
-                                    className="w-full h-auto"
-                                />
-                            </div>
-                            <div className="space-y-4">
-                                <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
-                                    <img
-                                        src="/projects_images/details-2-2-5.png"
-                                        alt="Project detail 7"
-                                        className="w-full h-auto"
-                                    />
-                                    <img
-                                        src="/projects_images/details-2-2-6.png"
-                                        alt="Project detail 7"
-                                        className="w-full h-auto"
-                                    />
-                                
-                                </div>
-                            </div>
-
-                        </div> */}
+                        <Image
+                            src="/projects_images/details-2-2-1.png"
+                            alt="Project detail 7"
+                            width={1200}
+                            height={800}
+                            className="w-full h-auto"
+                        />
+                        <Image
+                            src="/projects_images/details-2-2-2.png"
+                            alt="Project detail 7"
+                            width={1200}
+                            height={800}
+                            className="w-full h-auto"
+                        />
+                        <Image
+                            src="/projects_images/details-2-2-3.png"
+                            alt="Project detail 7"
+                            width={1200}
+                            height={800}
+                            className="w-full h-auto"
+                        />
                     </div>
 
                     <div className="pt-24">
                         <div className="mb-8">
-                            <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Documentation & Handoff</h2>
+                            <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Documentation & design system</h2>
                             <p className="project-description">
-                                Created comprehensive documentation and handoff materials to ensure smooth knowledge transfer and maintainability of the system.
+                            I was responsible for creating clear, detailed design specifications and user flows, like client journeys and showing maps, so everyone knew exactly what to build. Plus, contributing to our design system was key – it ensured everything looked and felt consistent across all our products, making our work much more scalable and efficient.
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag">Documentation • Technical Writing • Knowledge Transfer</p>
                         </div>
-                        {/*Images grid 3*/}
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4 lg:col-span-2">
-                        <img
-                            src="/projects_images/details-2-1-9.png"
-                            alt="Documentation overview"
-                            className="w-full h-auto"
-                        />
+                                <Image
+                                    src="/projects_images/details-2-1-9.png"
+                                    alt="Documentation overview"
+                                    width={1200}
+                                    height={800}
+                                    className="w-full h-auto"
+                                />
+                            </div>
+                            <Image
+                                src="/projects_images/details-2-2-6.png"
+                                alt="Technical specifications"
+                                width={1200}
+                                height={800}
+                                className="w-full h-auto"
+                            />
+                            <Image
+                                src="/projects_images/details-2-2-7.png"
+                                alt="API documentation"
+                                width={1200}
+                                height={800}
+                                className="w-full h-auto"
+                            />
                         </div>
-                        <img
-                            src="/projects_images/details-2-2-6.png"
-                            alt="Technical specifications"
-                            className="w-full h-auto"
-                        />
-                        <img
-                            src="/projects_images/details-2-2-7.png"
-                            alt="API documentation"
-                            className="w-full h-auto"
-                        />
                     </div>
-</div>
                 </section>
             )}
         </>

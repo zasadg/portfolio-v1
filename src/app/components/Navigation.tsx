@@ -1,12 +1,28 @@
 "use client";
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Navigation() {
-    const pathname = usePathname();
     const [isHeroSection, setIsHeroSection] = useState(true);
+    const [activeSection, setActiveSection] = useState('');
+
+    const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+        e.preventDefault();
+        const element = document.querySelector(targetId);
+        if (element) {
+            const headerOffset = 64; // Height of the fixed header
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+            setActiveSection(targetId);
+        }
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -14,6 +30,21 @@ export default function Navigation() {
             if (heroSection) {
                 const rect = heroSection.getBoundingClientRect();
                 setIsHeroSection(rect.bottom > 0);
+            }
+
+            // Update active section based on scroll position
+            const sections = ['#projects', '#code', '#others'];
+            const headerOffset = 64;
+
+            for (const section of sections) {
+                const element = document.querySelector(section);
+                if (element) {
+                    const rect = element.getBoundingClientRect();
+                    if (rect.top <= headerOffset && rect.bottom >= headerOffset) {
+                        setActiveSection(section);
+                        break;
+                    }
+                }
             }
         };
 
@@ -24,7 +55,7 @@ export default function Navigation() {
     }, []);
 
     const isActive = (path: string) => {
-        return pathname === path;
+        return activeSection === path;
     };
 
     return (
@@ -37,16 +68,17 @@ export default function Navigation() {
                         <Link href="/" className={`text-xl font-semibold transition-colors duration-300 flex items-center gap-2 ${
                             isHeroSection ? 'text-white' : 'text-black'
                         }`}>
-                            <img src="/logo.png" alt="cat logo" className="w-auto h-8 rounded-full" />
+                            <Image src="/logo.png" alt="cat logo" width={32} height={32} className="w-auto h-8 rounded-full" />
                             <span>KnM</span>
                         </Link> 
                     </div>
                     
                     <div className="flex items-center space-x-8">
                         <Link 
-                            href="/projects" 
+                            href="#projects" 
+                            onClick={(e) => handleSmoothScroll(e, '#projects')}
                             className={`text-sm font-medium transition-colors duration-300 ${
-                                isActive('/projects') 
+                                isActive('#projects') 
                                     ? isHeroSection ? 'text-white' : 'text-black'
                                     : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
                             }`}
@@ -54,24 +86,26 @@ export default function Navigation() {
                             Projects
                         </Link>
                         <Link 
-                            href="/development" 
+                            href="#code" 
+                            onClick={(e) => handleSmoothScroll(e, '#code')}
                             className={`text-sm font-medium transition-colors duration-300 ${
-                                isActive('/development') 
+                                isActive('#code') 
                                     ? isHeroSection ? 'text-white' : 'text-black'
                                     : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
                             }`}
                         >
-                            Development
+                            Code
                         </Link>
                         <Link 
-                            href="/journal" 
+                            href="#others" 
+                            onClick={(e) => handleSmoothScroll(e, '#others')}
                             className={`text-sm font-medium transition-colors duration-300 ${
-                                isActive('/journal') 
+                                isActive('#others') 
                                     ? isHeroSection ? 'text-white' : 'text-black'
                                     : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
                             }`}
                         >
-                            Journal
+                            Others
                         </Link>
                     </div>
                 </div>
