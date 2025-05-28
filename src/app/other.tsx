@@ -82,7 +82,7 @@ export default function SpeakingWriting() {
                 </div>
             </div>
 
-            {/* published */}
+            {/* published
             <div className="mt-8">
                 <div className="text-[#4B51BF] font-semibold text-lg">Published</div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-base">
@@ -99,7 +99,7 @@ export default function SpeakingWriting() {
                         <span className="font-bold">UX Planet</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 }

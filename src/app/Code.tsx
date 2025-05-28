@@ -9,7 +9,7 @@ export default function Hero() {
                     <div className="">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Coding</h1>
                         <p className="text-lg text-gray-700 pb-16">
-                            Your text content goes here. This is the left side of the layout.
+                           To keep in touch with my coding journey, those are some projects that I have worked on.
                         </p>
 
                         {/* Card Section 1*/}
