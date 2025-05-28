@@ -2,12 +2,12 @@
 import Hero from "./hero";
 import Project1 from "./project-1";
 import Project2 from "./project-2";
-import Code from "./code";
+import Code from "./Code";
 import Other from "./other";
 import Footer from "./footer";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
-import Navigation from "./components/navigation";
 import ScrollToTop from "./components/scrollToTop";
+import Navigation from "./components/navigation";
 
 export default function Home() {
   return (
