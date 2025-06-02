@@ -12,7 +12,7 @@ export default function Project1() {
                 <div className="flex flex-col lg:flex-row gap-16">
                     <div className="flex-[0.4] w-full">
                         <p className="text-black text-lg font-medium">
-                            <a href="https://endash.ai" className="flex items-center gap-2 text-black hover:opacity-80" target="_blank" rel="noopener noreferrer">
+                            <a href="" className="flex items-center gap-2 text-black hover:opacity-80" target="_blank" rel="noopener noreferrer">
                                 endash.ai
                                 <FiExternalLink className="w-4 h-4" />
                             </a>
