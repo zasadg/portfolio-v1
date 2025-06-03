@@ -17,12 +17,11 @@ export default function Hero() {
                             <h1 className="text-4xl md:text-5xl font-bold mb-6">Khang Nguyen</h1>
 
                             <p className="text-lg leading-relaxed">
-                                I&apos;m a Senior Product Designer building tools that people use every
-                                day to work, create, and collaborate on the internet.
+                                I&apos;m a Product Designer crafting meaningful experiences for future products.
                             </p>
 
                             <p className="mt-4 text-lg leading-relaxed">
-                                My job is to design & code to enable people to reach their goals.
+                            While being a designer, empathizing with ux outcome is not just my goal but the balance between business goals and development feasible is already baked into my mental model.
                             </p>
 
                             <div className="mt-8 space-y-1 text-base">
@@ -40,10 +39,10 @@ export default function Hero() {
                                         </a>
                                     </span>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                {/* <div className="flex items-center gap-2">
                                     <FiGlobe />
                                     <span>Living in Saigon</span>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="flex gap-4 mt-8 text-2xl">

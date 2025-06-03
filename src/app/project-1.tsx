@@ -13,25 +13,20 @@ export default function Project1() {
                     <div className="flex-[0.4] w-full">
                         <p className="text-black text-lg font-medium">
                             <a href="" className="flex items-center gap-2 text-black hover:opacity-80" target="_blank" rel="noopener noreferrer">
+                                <Image src="/Endash_icon.svg" alt="logo" className="rounded-sm" width={18} height={18} />
                                 endash.ai
-                                <FiExternalLink className="w-4 h-4" />
                             </a>
                         </p>
-                        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#4B51BF]">Data analytics platform</h1>
+                        <h1 className="text-3xl md:text-4xl font-bold mb-6 mt-2 text-black">Data analytics platform</h1>
                         <p className="text-md mb-4">
-                            Endash.AI is a platform designed to simplify complex data workflows, enabling teams to focus on analyzing insights rather than managing fragmented data. The project aimed to assist small to mid-sized e-commerce businesses in transforming raw, unstructured data into real-time, actionable insights without requiring deep technical expertise.
+                            Endash.AI is a platform designed to simplify complex data workflows, enabling teams to focus on analyzing insights rather than managing fragmented data. Endash aims to assist small to mid-sized e-commerce businesses in transforming raw, unstructured data into real-time, actionable insights without requiring deep technical expertise.
+
                         </p>
 
-                        {/* <div className="flex gap-3 mb-8">
-                            <span className="px-2 py-1.5 rounded-md bg-blue-100 text-black text-sm font-medium border border-blue-200">Design</span>
-                            <span className="px-2 py-1.5 rounded-md bg-purple-100 text-black text-sm font-medium border border-purple-200">Development</span>
-                            <span className="px-2 py-1.5 rounded-md bg-green-100 text-black text-sm font-medium border border-green-200">Product</span>
-                            <span className="px-2 py-1.5 rounded-md bg-orange-100 text-black text-sm font-medium border border-orange-200">Strategy</span>
-                        </div> */}
 
-                        <blockquote className="mb-8">
-                            Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn&apos;t really do it, they just saw something. 
-                            <span>Steve Jobs</span>
+                        <blockquote className="mb-8 mt-8 text-sm">
+                        I was in charge of the designing for the platform, right from ideation concept, running product discovery with manager, conduct and tailoring insights to user journey, design and discuss logical flow with development team.
+
                         </blockquote>
 
                         <button
@@ -75,10 +70,10 @@ export default function Project1() {
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Transforming analytics experiences</h2>
 
                             <p className="project-description">
-                            This project, Endash.AI, focused on transforming complex customer behavior data into actionable insights, tackling challenges like data fragmentation and analysis complexity for e-commerce, marketing, and sales teams. We developed a solution combining AI, automation, and an intuitive workflow with features like dashboard templates, automated data syncing, and AI-assisted data modeling. The impact was significant: 12 out of 15 enterprise customers adopted the new dashboard within four weeks, we achieved a peak DAU/WAU stickiness of 47% and a 32% activation rate in the first month, and the platform drove an 8x growth in Monthly Recurring Revenue (MRR) over the year. This demonstrates how effectively we turned unseen data into a powerful driver for business growth and user engagement.
+                            Endash helps e-commerce, marketing, and sales teams make sense of messy customer data. I designed a workflow that combines AI, automation, and intuitive dashboards—making it easy to model data, sync sources, and start fast with smart templates. Within 4 weeks, 12 of 15 enterprise clients adopted the new system. We hit <span className="inline-block font-bold"> 47% stickiness </span> and <span className="inline-block font-bold"> 32% activation </span> in the first month, <span className="inline-block font-bold"> 8× MRR growth </span> in a year.
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">UX • Interface Design • Code</p>
+                            <p className="project-tag">UX design • Product thinking • Workflow design • Data visualization • Product documentation</p>
                         </div>
                         {/*Images grid */}
                         {/* <h1 className="text-gray-600 text-lg font-medium">Dashboard with templates to kick start</h1> */}
@@ -147,10 +142,10 @@ export default function Project1() {
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">UX Research and design</h2>
                             <p className="project-description">
-                                Conducted extensive user research with e-commerce retailers, marketers, and sales teams to identify pain points. Designed intuitive workflows and dashboards that cater to both technical and non-technical users, reducing cognitive load and enhancing user engagement.
+                                Conducted user research with e-commerce retailers, marketers, and sales teams to identify pain points. Collaborate with data and product teams to define intuitive workflows and dashboards that tailored to both technical and non-technical users, reducing cognitive load and enhancing user engagement.
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">UX research • User interveiw • Insight findings</p>
+                            <p className="project-tag">User interveiw • User journey mapping • Usability testing</p>
 
 
                         </div>
@@ -165,6 +160,7 @@ export default function Project1() {
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
+                                <div className="text-gray-600 text-sm text-center">Target user interview</div>
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
                             <div className="space-y-4">
@@ -176,6 +172,7 @@ export default function Project1() {
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
+                                <div className="text-gray-600 text-sm text-center">Persona types</div>
                                 {/* <p className="text-gray-600">Data pipeline to extract insights</p> */}
                             </div>
                             <div className="space-y-4">
@@ -187,6 +184,7 @@ export default function Project1() {
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
+                                <div className="text-gray-600 text-sm text-center">Mapping user journey</div>
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
                             <div className="space-y-4">
@@ -198,6 +196,7 @@ export default function Project1() {
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
+                                <div className="text-gray-600 text-sm text-center">User insights findings</div>
                                 {/* <p className="text-gray-600">Dashboard with templates to kick start</p> */}
                             </div>
                         </div>
@@ -208,10 +207,11 @@ export default function Project1() {
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Extract data insights</h2>
                             <p className="project-description">
-                            Our core innovation was how we enabled users to effortlessly extract data insight and understand their business better. This worked through a combination of AI-assisted data modeling and an intuitive metric builder. Essentially, raw, unseen data flowed into the system, where our AI would automatically begin to structure and make sense of it. Users could then leverage the metric builder – a user-friendly interface – to define and build custom metrics and dashboards without needing to write code or understand complex database queries. This process transformed raw data points into meaningful KPIs, trends, and patterns, directly showing how customer behavior influenced outcomes and making insights immediately actionable for decision-making.
+                            Our core innovation was how we enabled users to effortlessly extract data insight and understand their business better. Essentially, raw, unseen data flowed into the system, where our AI would automatically begin to structure and make map it to data modeling. Users could then leverage the metric builder to define and build custom metrics and dashboards without needing to write code or understand complex database queries. 
+                            
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">UX research • User interveiw • Insight findings</p>
+                            <p className="project-tag">Data transformation • Data modeling • Metrics builder</p>
 
 
                         </div>
@@ -267,7 +267,7 @@ export default function Project1() {
                             A crucial part of our process was comprehensive documentation. We meticulously created detailed design specifications, user flows, and sitemaps to clearly communicate design intent. This thorough documentation streamlined the design handoff, ensuring smooth implementation and consistency by bridging the gap between design and development.
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">Documentation • Process Design • Technical Writing</p>
+                            <p className="project-tag">Documentation • Process Design • Technical Writing • PRD • Research findings</p>
                         </div>
                         {/*Images grid */}
                 
@@ -345,13 +345,13 @@ export default function Project1() {
                             
                         </div>
                     </div>
-
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="pt-24">
                         <div className="mb-8">
-                            <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Project Walkthrough</h2>
+                            <h2 className="text-xl font-bold mb-2 text-[#4B51BF]">Project Walkthrough</h2>
                             <p className="project-description">
                                 A short summarize walkthrough of the project implementation.
-                            </p>
+                            </p>        
                         </div>
                         <div className="aspect-video w-full">
                             <iframe
@@ -361,7 +361,23 @@ export default function Project1() {
                             ></iframe>
                         </div>
                     </div>
-
+                            
+                    <div className="pt-24">
+                        <div className="mb-8">
+                            <h2 className="text-xl font-bold mb-2 text-[#4B51BF]">Published reports</h2>
+                            <p className="project-description">
+                                Live reports published on Endash.ai.
+                            </p>
+                        </div>
+                        <div className="aspect-video w-full">
+                        <iframe 
+                            src="https://app.endash.ai/en/d/site/Endash%20Guidance-4e6445aa-e5b8-4338-9f73-5fbaf4cb4915" 
+                            title="description" 
+                            className="w-full h-full rounded-md shadow-lg"
+                        ></iframe>
+                        </div>
+                    </div>
+                    </div>
                 </section>
             )}
         </>

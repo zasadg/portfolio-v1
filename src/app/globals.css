@@ -129,7 +129,7 @@
   color: #4B51BF;
   font-weight: 600;
   margin-bottom: 16px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .project-description{
@@ -154,7 +154,7 @@ blockquote::before{
   font-size:3em;
   position: absolute;
   left: 10px;
-  top:-10px;
+  top:24px;
 }
 
 blockquote::after{
