@@ -19,7 +19,7 @@ export default function Home() {
                 {
                     image: '/static/banner-background.svg',
                     speed: -10,
-                    opacity: [0, 0], // Reduced opacity
+                    opacity: [1, 1], // Reduced opacity
                 },
                 {
                     image: '/static/banner-foreground-hero.svg',
@@ -42,7 +42,7 @@ export default function Home() {
                 {
                     image: '/static/banner-foreground.svg',
                     speed: -200,
-                    opacity: [0.1, 0.1], // Reduced opacity
+                    opacity: [0.05, 0.05], // Reduced opacity
                     className: 'w-full object-cover',
                 },
             ]}
