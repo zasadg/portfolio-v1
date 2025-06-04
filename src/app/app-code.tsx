@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 
-export default function Hero() {
+export default function Code() {
     return (
         <>
             <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left" id="code">
