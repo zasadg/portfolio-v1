@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import { FiGlobe } from "react-icons/fi";
 
 export default function Hero() {
     return (

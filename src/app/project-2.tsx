@@ -1,5 +1,4 @@
 "use client";
-import { FiExternalLink } from "react-icons/fi";
 import { useState } from 'react';
 import Image from 'next/image';
 
