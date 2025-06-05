@@ -36,7 +36,7 @@ export default function AboutPage() {
           className="flex flex-col items-start sm:flex-row sm:items-center gap-6 mb-10"
         >
           <Image
-            src="/avatar.png"
+            src="/Avatar.png"
             alt="Profile photo"
             width={88}
             height={88}
