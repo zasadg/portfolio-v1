@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Code() {
     return (
         <>
-            <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left" id="code">
+            <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left mb-20" id="code">
                 <div className="">
                     <div className="">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Coding</h1>
@@ -18,9 +18,9 @@ export default function Code() {
                                 <div className="flex-1 flex flex-col justify-center text-white z-10 max-w-lg">
                                     <h1 className="text-xl md:text-2xl font-bold pb-4">Interactive whiteboard</h1>
                                     <div className="text-md pb-16">
-                                        My personal experience with interact.js and next.js
+                                        A personal experience with interact.js and next.js
                                     </div>
-                                    <a href="https://my-portfolio-2l3f.vercel.app" target="_blank" rel="noopener noreferrer" className="underline text-white font-semibold text-xl hover:text-purple-200 transition-colors">View project →</a>
+                                    <a href="https://my-portfolio-2l3f.vercel.app" target="_blank" rel="noopener noreferrer" className="underline text-white font-semibold text-lg hover:text-purple-200 transition-colors">View project →</a>
                                 </div>
                                 {/* Image Section */}
                                 <div className="hidden md:block">
@@ -56,7 +56,7 @@ export default function Code() {
                                     <div className="text-md pb-16">
                                         A space shooting games for scoring points and compete with coworkers
                                     </div>
-                                    <a href="#" className="underline text-white font-semibold text-xl hover:text-purple-200 transition-colors">View project →</a>
+                                    <a href="#" className="underline text-white font-semibold text-lg  hover:text-purple-200 transition-colors">View project →</a>
                                 </div>
                                 {/* Image Section */}
                                 <div className="hidden md:block">

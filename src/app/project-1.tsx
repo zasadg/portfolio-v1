@@ -16,7 +16,7 @@ export default function Project1() {
                                 endash.ai
                             </a>
                         </p>
-                        <h1 className="text-3xl md:text-4xl font-bold mb-6 mt-2 text-black">Data analytics platform</h1>
+                        <h1 className="text-3xl md:text-4xl font-bold mb-6 mt-2 text-[#4B51BF]">Data analytics platform</h1>
                         <p className="text-md mb-4">
                             Endash.AI is a platform designed to simplify complex data workflows, enabling teams to focus on analyzing insights rather than managing fragmented data. Endash aims to assist small to mid-sized e-commerce businesses in transforming raw, unstructured data into real-time, actionable insights without requiring deep technical expertise.
 
@@ -44,9 +44,9 @@ export default function Project1() {
                                     }, 100);
                                 }
                             }}
-                            className="button"
+                            className="button text-[#4B51BF]"
                         >
-                            {isExpanded ? 'Show Less' : 'Read More'}
+                            {isExpanded ? 'Show Less ↑' : 'Read More ↓'}
                         </button>
                     </div>
                     <div className="flex-[0.6] w-full">
@@ -63,7 +63,7 @@ export default function Project1() {
             </section>
 
             {isExpanded && (
-                <section className="details max-w-full lg:px-32 px-16 py-16 relative" id="project-details">
+                <section className="details max-w-full lg:px-32 px-16 py-16 relative bg-[#1f45961d]" id="project-details">
                     <div className="">
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Transforming analytics experiences</h2>
@@ -72,7 +72,7 @@ export default function Project1() {
                             Endash helps e-commerce, marketing, and sales teams make sense of messy customer data. I designed a workflow that combines AI, automation, and intuitive dashboards—making it easy to model data, sync sources, and start fast with smart templates. Within 4 weeks, 12 of 15 enterprise clients adopted the new system. We hit <span className="inline-block font-bold"> 47% stickiness </span> and <span className="inline-block font-bold"> 32% activation </span> in the first month, <span className="inline-block font-bold"> 8× MRR growth </span> in a year.
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">UX design • Product thinking • Workflow design • Data visualization • Product documentation</p>
+                            <p className="project-tag text-[#4B51BF]">UX design • Product thinking • Workflow design • Data visualization • Product documentation</p>
                         </div>
                         {/*Images grid */}
                         {/* <h1 className="text-gray-600 text-lg font-medium">Dashboard with templates to kick start</h1> */}
@@ -144,7 +144,7 @@ export default function Project1() {
                                 Conducted user research with e-commerce retailers, marketers, and sales teams to identify pain points. Collaborate with data and product teams to define intuitive workflows and dashboards that tailored to both technical and non-technical users, reducing cognitive load and enhancing user engagement.
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">User interveiw • User journey mapping • Usability testing</p>
+                            <p className="project-tag text-[#4B51BF]">User interveiw • User journey mapping • Usability testing</p>
 
 
                         </div>
@@ -210,7 +210,7 @@ export default function Project1() {
                             
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">Data transformation • Data modeling • Metrics builder</p>
+                            <p className="project-tag text-[#4B51BF]">Data transformation • Data modeling • Metrics builder</p>
 
 
                         </div>
@@ -266,7 +266,7 @@ export default function Project1() {
                             A crucial part of our process was comprehensive documentation. We meticulously created detailed design specifications, user flows, and sitemaps to clearly communicate design intent. This thorough documentation streamlined the design handoff, ensuring smooth implementation and consistency by bridging the gap between design and development.
                             </p>
                             <h6 className="project-role">Role</h6>
-                            <p className="project-tag">Documentation • Process Design • Technical Writing • PRD • Research findings</p>
+                            <p className="project-tag text-[#4B51BF]">Documentation • Process Design • Technical Writing • PRD • Research findings</p>
                         </div>
                         {/*Images grid */}
                 

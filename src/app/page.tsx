@@ -28,7 +28,7 @@ export default function Home() {
                     className: 'w-full object-cover',
                 },
             ]}
-          className="bg-[#2D3748] hero-section"
+          className="bg-[#222222] hero-section"
         >
             <Hero />
         </ParallaxBanner>
@@ -50,9 +50,27 @@ export default function Home() {
         >
             <Project1 />
             <Project2 />
-
             <Code />
+            <ParallaxProvider>
+        <ParallaxBanner
+            layers={[
+              {
+                image: '/static/banner-background.svg',
+                speed: -10,
+                opacity: [1, 1], // Reduced opacity
+              },
+              {
+                image: '/static/banner-foreground-hero.svg',
+                speed: -20,
+                opacity: [0.1, 0.1], // Reduced opacity
+                className: 'w-full object-cover',
+              },
+            ]}
+          className="bg-[#4A5A84] Other"
+        >
             <Other />
+            </ParallaxBanner>
+            </ParallaxProvider>
             <Footer />
         </ParallaxBanner>
         <ScrollToTop />

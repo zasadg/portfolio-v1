@@ -3,10 +3,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function Navigation() {
     const [isHeroSection, setIsHeroSection] = useState(true);
     const [activeSection, setActiveSection] = useState('');
+    const pathname = usePathname();
 
     const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
         e.preventDefault();
@@ -74,6 +76,16 @@ export default function Navigation() {
                     </div>
                     
                     <div className="flex items-center space-x-8">
+                        <Link 
+                            href="/about-me"
+                            className={`text-sm font-medium transition-colors duration-300 ${
+                                pathname === '/about-me'
+                                    ? isHeroSection ? 'text-white' : 'text-black'
+                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
+                            }`}
+                        >
+                            About
+                        </Link>
                         <Link 
                             href="#projects" 
                             onClick={(e) => handleSmoothScroll(e, '#projects')}

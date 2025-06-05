@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function Hero() {
     return (
-                <section className="hero min-h-screen relative max-w-5xl lg:px-32 px-16 py-16 flex flex-col justify-center items-left text-white">
+                <section className="min-h-screen relative max-w-5xl lg:px-32 px-16 py-16 flex flex-col justify-center items-left text-white">
                     <motion.div
                         className=""
                         initial={{ opacity: 0, y: 20 }}

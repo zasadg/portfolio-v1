@@ -126,7 +126,7 @@
   font-weight: 600;
 }
 .project-tag{
-  color: #4B51BF;
+  /* color: #4B51BF; */
   font-weight: 600;
   margin-bottom: 16px;
   font-size: 14px;
@@ -168,23 +168,27 @@ blockquote span{
   margin-top:1em;
 }
 .button{
-  background-color: #2D3748;
-  color: white;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
+  /* background-color: #222222; */
+  /* color: #222222; */
+  padding: 24px 0px;
+  text-decoration: underline;
+  /* border-radius: 6px; */
+  font-size: 18px;
+  font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s ease;
   border: none;
   outline: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
-.details{
-  background-color:rgba(126, 126, 126, 0.23);
-}
+/* .details{
+  background-color:#1f45961d;
+} */
 
-#others{
+/* #others{
   background-color:rgba(255, 208, 0, 0.267);
-}
+} */
+ .b{
+  background-color: #259d671b;
+ }
