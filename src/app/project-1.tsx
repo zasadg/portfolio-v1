@@ -7,7 +7,7 @@ export default function Project1() {
 
     return (
         <>
-            <section className="relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left" id="projects">
+            <section className="relative w-full lg:px-32 px-16 py-28 flex flex-col justify-center items-left" id="projects">
                 <div className="flex flex-col lg:flex-row gap-16">
                     <div className="flex-[0.4] w-full">
                         <p className="text-black text-lg font-medium">
@@ -24,7 +24,7 @@ export default function Project1() {
 
 
                         <blockquote className="mb-8 mt-8 text-sm">
-                        I was in charge of the designing for the platform, right from ideation concept, running product discovery with manager, conduct and tailoring insights to user journey, design and discuss logical flow with development team.
+                            I was in charge of the designing for the platform, right from ideation concept, running product discovery with manager, conduct and tailoring insights to user journey, design and discuss logical flow with development team.
 
                         </blockquote>
 
@@ -69,7 +69,7 @@ export default function Project1() {
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Transforming analytics experiences</h2>
 
                             <p className="project-description">
-                            Endash helps e-commerce, marketing, and sales teams make sense of messy customer data. I designed a workflow that combines AI, automation, and intuitive dashboards—making it easy to model data, sync sources, and start fast with smart templates. Within 4 weeks, 12 of 15 enterprise clients adopted the new system. We hit <span className="inline-block font-bold"> 47% stickiness </span> and <span className="inline-block font-bold"> 32% activation </span> in the first month, <span className="inline-block font-bold"> 8× MRR growth </span> in a year.
+                                Endash helps e-commerce, marketing, and sales teams make sense of messy customer data. I designed a workflow that combines AI, automation, and intuitive dashboards—making it easy to model data, sync sources, and start fast with smart templates. Within 4 weeks, 12 of 15 enterprise clients adopted the new system. We hit <span className="inline-block font-bold"> 47% stickiness </span> and <span className="inline-block font-bold"> 32% activation </span> in the first month, <span className="inline-block font-bold"> 8× MRR growth </span> in a year.
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag text-[#4B51BF]">UX design • Product thinking • Workflow design • Data visualization • Product documentation</p>
@@ -206,8 +206,8 @@ export default function Project1() {
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Extract data insights</h2>
                             <p className="project-description">
-                            Our core innovation was how we enabled users to effortlessly extract data insight and understand their business better. Essentially, raw, unseen data flowed into the system, where our AI would automatically begin to structure and make map it to data modeling. Users could then leverage the metric builder to define and build custom metrics and dashboards without needing to write code or understand complex database queries. 
-                            
+                                Our core innovation was how we enabled users to effortlessly extract data insight and understand their business better. Essentially, raw, unseen data flowed into the system, where our AI would automatically begin to structure and make map it to data modeling. Users could then leverage the metric builder to define and build custom metrics and dashboards without needing to write code or understand complex database queries.
+
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag text-[#4B51BF]">Data transformation • Data modeling • Metrics builder</p>
@@ -263,13 +263,13 @@ export default function Project1() {
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Data workflow documentation</h2>
                             <p className="project-description">
-                            A crucial part of our process was comprehensive documentation. We meticulously created detailed design specifications, user flows, and sitemaps to clearly communicate design intent. This thorough documentation streamlined the design handoff, ensuring smooth implementation and consistency by bridging the gap between design and development.
+                                A crucial part of our process was comprehensive documentation. We meticulously created detailed design specifications, user flows, and sitemaps to clearly communicate design intent. This thorough documentation streamlined the design handoff, ensuring smooth implementation and consistency by bridging the gap between design and development.
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag text-[#4B51BF]">Documentation • Process Design • Technical Writing • PRD • Research findings</p>
                         </div>
                         {/*Images grid */}
-                
+
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
                                 <Image
@@ -306,76 +306,76 @@ export default function Project1() {
                                 />
                             </div> */}
                             <div className="space-y-4">
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                                <Image
-                                    src="/projects_images/details-1-1-15.png"
-                                    alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
-                                    className="w-full h-auto"
-                                    loading="lazy"
-                                />
-                                <Image
-                                    src="/projects_images/details-1-1-17.png"
-                                    alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
-                                    className="w-full h-auto"
-                                    loading="lazy"
-                                />
-                                <Image
-                                    src="/projects_images/details-1-1-18.png"
-                                    alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
-                                    className="w-full h-auto"
-                                    loading="lazy"
-                                />
-                                <Image
-                                    src="/projects_images/details-1-1-19.png"
-                                    alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
-                                    className="w-full h-auto"
-                                    loading="lazy"
-                                />
+                                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                                    <Image
+                                        src="/projects_images/details-1-1-15.png"
+                                        alt="Project detail 7"
+                                        width={1200}
+                                        height={800}
+                                        className="w-full h-auto"
+                                        loading="lazy"
+                                    />
+                                    <Image
+                                        src="/projects_images/details-1-1-17.png"
+                                        alt="Project detail 7"
+                                        width={1200}
+                                        height={800}
+                                        className="w-full h-auto"
+                                        loading="lazy"
+                                    />
+                                    <Image
+                                        src="/projects_images/details-1-1-18.png"
+                                        alt="Project detail 7"
+                                        width={1200}
+                                        height={800}
+                                        className="w-full h-auto"
+                                        loading="lazy"
+                                    />
+                                    <Image
+                                        src="/projects_images/details-1-1-19.png"
+                                        alt="Project detail 7"
+                                        width={1200}
+                                        height={800}
+                                        className="w-full h-auto"
+                                        loading="lazy"
+                                    />
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <div className="pt-24">
-                        <div className="mb-8">
-                            <h2 className="text-xl font-bold mb-2 text-[#4B51BF]">Project Walkthrough</h2>
-                            <p className="project-description">
-                                A short summarize walkthrough of the project implementation.
-                            </p>        
+                        <div className="pt-24">
+                            <div className="mb-8">
+                                <h2 className="text-xl font-bold mb-2 text-[#4B51BF]">Project Walkthrough</h2>
+                                <p className="project-description">
+                                    A short summarize walkthrough of the project implementation.
+                                </p>
+                            </div>
+                            <div className="aspect-video w-full">
+                                <iframe
+                                    src="https://www.loom.com/embed/485ed363194a47f3ab628780611122fb?sid=a590cd35-8510-4f0b-823a-a4456deb7d66"
+                                    allowFullScreen
+                                    className="w-full h-full rounded-lg shadow-lg"
+                                ></iframe>
+                            </div>
                         </div>
-                        <div className="aspect-video w-full">
-                            <iframe
-                                src="https://www.loom.com/embed/485ed363194a47f3ab628780611122fb?sid=a590cd35-8510-4f0b-823a-a4456deb7d66"
-                                allowFullScreen
-                                className="w-full h-full rounded-lg shadow-lg"
-                            ></iframe>
+
+                        <div className="pt-24">
+                            <div className="mb-8">
+                                <h2 className="text-xl font-bold mb-2 text-[#4B51BF]">Published reports</h2>
+                                <p className="project-description">
+                                    Live reports published on Endash.ai.
+                                </p>
+                            </div>
+                            <div className="aspect-video w-full">
+                                <iframe
+                                    src="https://app.endash.ai/en/d/site/Endash%20Guidance-4e6445aa-e5b8-4338-9f73-5fbaf4cb4915"
+                                    title="description"
+                                    className="w-full h-full rounded-md shadow-lg"
+                                ></iframe>
+                            </div>
                         </div>
-                    </div>
-                            
-                    <div className="pt-24">
-                        <div className="mb-8">
-                            <h2 className="text-xl font-bold mb-2 text-[#4B51BF]">Published reports</h2>
-                            <p className="project-description">
-                                Live reports published on Endash.ai.
-                            </p>
-                        </div>
-                        <div className="aspect-video w-full">
-                        <iframe 
-                            src="https://app.endash.ai/en/d/site/Endash%20Guidance-4e6445aa-e5b8-4338-9f73-5fbaf4cb4915" 
-                            title="description" 
-                            className="w-full h-full rounded-md shadow-lg"
-                        ></iframe>
-                        </div>
-                    </div>
                     </div>
                 </section>
             )}

@@ -7,7 +7,7 @@ export default function Code() {
             <section className="relative min-h-screen relative w-full lg:px-32 px-16 py-16 flex flex-col justify-center items-left mb-20" id="code">
                 <div className="">
                     <div className="">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#4B51BF]">Coding</h1>
+                        <h1 className="ext-3xl md:text-4xl font-bold mb-6 text-[#222222]">Coding</h1>
                         <p className="text-lg text-gray-700 pb-16">
                            To keep in touch with my coding journey, those are some projects t   hat I have worked on.
                         </p>

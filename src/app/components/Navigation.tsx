@@ -28,11 +28,10 @@ export default function Navigation() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const heroSection = document.querySelector('.hero-section');
-            if (heroSection) {
-                const rect = heroSection.getBoundingClientRect();
-                setIsHeroSection(rect.bottom > 0);
-            }
+            // Get the scroll position
+            const scrollPosition = window.scrollY;
+            // Consider hero section when we're near the top (within 500px)
+            setIsHeroSection(scrollPosition < 500);
 
             // Update active section based on scroll position
             const sections = ['#projects', '#code', '#others'];
@@ -60,6 +59,15 @@ export default function Navigation() {
         return activeSection === path;
     };
 
+    const getTextColor = (isActive: boolean) => {
+        console.log('Current hero section state:', isHeroSection);
+        if (isHeroSection) {
+            return isActive ? 'text-white' : 'text-gray-300 hover:text-white';
+        } else {
+            return isActive ? 'text-black' : 'text-gray-500 hover:text-black';
+        }
+    };
+
     return (
         <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-xs border-b transition-colors duration-300 ${
             isHeroSection ? 'border-[#535353]' : 'border-[#d6d6d6]'
@@ -76,49 +84,54 @@ export default function Navigation() {
                     </div>
                     
                     <div className="flex items-center space-x-8">
-                        <Link 
-                            href="/about-me"
-                            className={`text-sm font-medium transition-colors duration-300 ${
-                                pathname === '/about-me'
-                                    ? isHeroSection ? 'text-white' : 'text-black'
-                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
-                            }`}
-                        >
-                            About
-                        </Link>
-                        <Link 
-                            href="#projects" 
-                            onClick={(e) => handleSmoothScroll(e, '#projects')}
-                            className={`text-sm font-medium transition-colors duration-300 ${
-                                isActive('#projects') 
-                                    ? isHeroSection ? 'text-white' : 'text-black'
-                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
-                            }`}
-                        >
-                            Projects
-                        </Link>
-                        <Link 
-                            href="#code" 
-                            onClick={(e) => handleSmoothScroll(e, '#code')}
-                            className={`text-sm font-medium transition-colors duration-300 ${
-                                isActive('#code') 
-                                    ? isHeroSection ? 'text-white' : 'text-black'
-                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
-                            }`}
-                        >
-                            Code
-                        </Link>
-                        <Link 
-                            href="#others" 
-                            onClick={(e) => handleSmoothScroll(e, '#others')}
-                            className={`text-sm font-medium transition-colors duration-300 ${
-                                isActive('#others') 
-                                    ? isHeroSection ? 'text-white' : 'text-black'
-                                    : isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
-                            }`}
-                        >
-                            Others
-                        </Link>
+                        {pathname === '/about-me' ? (
+                            <Link 
+                                href="/"
+                                className={`text-sm font-medium transition-colors duration-300 ${
+                                    isHeroSection ? 'text-gray-300 hover:text-white' : 'text-gray-500 hover:text-black'
+                                }`}
+                            >
+                                Return Home
+                            </Link>
+                        ) : (
+                            <>
+                                <Link 
+                                    href="#projects" 
+                                    onClick={(e) => handleSmoothScroll(e, '#projects')}
+                                    className={`text-sm font-medium transition-colors duration-300 ${
+                                        getTextColor(isActive('#projects'))
+                                    }`}
+                                >
+                                    Projects
+                                </Link>
+                                <Link 
+                                    href="#code" 
+                                    onClick={(e) => handleSmoothScroll(e, '#code')}
+                                    className={`text-sm font-medium transition-colors duration-300 ${
+                                        getTextColor(isActive('#code'))
+                                    }`}
+                                >
+                                    Code
+                                </Link>
+                                <Link 
+                                    href="#others" 
+                                    onClick={(e) => handleSmoothScroll(e, '#others')}
+                                    className={`text-sm font-medium transition-colors duration-300 ${
+                                        getTextColor(isActive('#others'))
+                                    }`}
+                                >
+                                    Others
+                                </Link>
+                                <Link 
+                                    href="/about-me"
+                                    className={`text-sm font-medium transition-colors duration-300 ${
+                                        getTextColor(pathname === '/about-me')
+                                    }`}
+                                >
+                                    About
+                                </Link>
+                            </>
+                        )}
                     </div>
                 </div>
             </div>
