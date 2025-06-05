@@ -69,7 +69,7 @@ export default function Project1() {
                             <h2 className="text-3xl font-bold mb-6 text-[#4B51BF]">Transforming analytics experiences</h2>
 
                             <p className="project-description">
-                                Endash helps e-commerce, marketing, and sales teams make sense of messy customer data. I designed a workflow that combines AI, automation, and intuitive dashboards—making it easy to model data, sync sources, and start fast with smart templates. Within 4 weeks, 12 of 15 enterprise clients adopted the new system. We hit <span className="inline-block font-bold"> 47% stickiness </span> and <span className="inline-block font-bold"> 32% activation </span> in the first month, <span className="inline-block font-bold"> 8× MRR growth </span> in a year.
+                                Endash helps e-commerce, marketing, and sales teams make sense of messy customer data. I designed a workflow that combines AI, automation, and intuitive dashboards—making it easy to model data, sync sources, and start fast with smart templates. Within 4 weeks, 12 of 15 enterprise clients adopted the new system. We hit <span className="inline-block font-bold"> 47% stickiness </span> and <span className="inline-block font-bold"> 32% activation </span> in the first month, <span className="inline-block font-bold"> 8× MRR growth </span> in 10 months.
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag text-[#4B51BF]">UX design • Product thinking • Workflow design • Data visualization • Product documentation</p>
