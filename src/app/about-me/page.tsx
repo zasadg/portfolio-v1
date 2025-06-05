@@ -4,10 +4,11 @@ import Image from "next/image";
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { motion } from "framer-motion";
-
+import { Analytics } from "@vercel/analytics/next"
 export default function AboutPage() {
   return (
     <ParallaxProvider>
+    <Analytics />
     <ParallaxBanner
         layers={[
             {
