@@ -75,7 +75,7 @@ export default function Project2() {
                             alt="Project detail 1"
                             width={1200}
                             height={800}
-                            className="w-full h-auto py-8"
+                            className="w-full h-auto pt-4"
                             loading="lazy"
                         />
                         <Image
@@ -86,14 +86,15 @@ export default function Project2() {
                             className="w-full h-auto"
                             loading="lazy"
                         />
-                        <Image
-                            src="/projects_images/details-2-1-8.png"
-                            alt="Project detail 1"
-                            width={1200}
-                            height={800}
-                            className="w-full h-auto"
-                            loading="lazy"
-                        />
+                        
+                         <Image
+                                    src="/projects_images/details-2-1-14.png"
+                                    alt="Project detail 2"
+                                    width={1200}
+                                    height={800}
+                                    className="w-full h-auto"
+                                    loading="lazy"
+                                />
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="space-y-4">
                                 <Image
@@ -179,7 +180,7 @@ export default function Project2() {
                         <div className="mb-8">
                             <h2 className="text-3xl font-bold mb-6 text-[#2d8c61]">Documentation & design system</h2>
                             <p className="project-description">
-                                I was responsible for creating clear, detailed design specifications and user flows, like client journeys and showing maps, so everyone knew exactly what to build. Plus, contributing to our design system was key – it ensured everything looked and felt consistent across all our products, making our work much more scalable and efficient.
+                                Across the products, contributing to our design system was key – it ensured everything looked and felt consistent across all our products, making our work much more scalable and efficient. So we keep the system clear, detailed design specifications and user flows, like client journeys and showing maps, so everyone knew exactly what to build.
                             </p>
                             <h6 className="project-role">Role</h6>
                             <p className="project-tag text-[#2d8c61]">Documentation • Technical writing • Knowledge transfer</p>
