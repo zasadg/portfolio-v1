@@ -53,8 +53,8 @@ export default function Project1() {
                         <Image
                             src="/projects_images/project-1_thumbnail.png"
                             alt="Project image"
-                            width={1200}
-                            height={800}
+                            width={9600}
+                            height={6400}
                             className="w-full h-auto"
                             loading="lazy"
                         />
@@ -79,26 +79,26 @@ export default function Project1() {
                         <Image
                             src="/projects_images/details-1-1.png"
                             alt="Project detail 1"
-                            width={1200}
-                            height={800}
+                            width={4800}
+                            height={3200}
                             className="w-full h-auto py-8"
-                            loading="lazy"
+                            // loading="lazy"
                         />
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                             <div className="space-y-4 lg:col-span-2">
                                 <Image
                                     src="/projects_images/details-1-1-2.png"
                                     alt="Project detail 1"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-4.png"
                                     alt="Project detail 1"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -108,24 +108,24 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-1-8.png"
                                     alt="Project detail 2"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-5.png"
                                     alt="Project detail 2"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-12.png"
                                     alt="Project detail 2"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -154,8 +154,8 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-3.png"
                                     alt="Project detail 3"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -166,8 +166,8 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-4.png"
                                     alt="Project detail 4"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -178,8 +178,8 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-5.png"
                                     alt="Project detail 5"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -190,8 +190,8 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-6.png"
                                     alt="Project detail 6"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -219,8 +219,8 @@ export default function Project1() {
                         <Image
                             src="/projects_images/details-1-2.png"
                             alt="Project detail 1"
-                            width={1200}
-                            height={800}
+                            width={4800}
+                            height={3200}
                             className="w-full h-auto"
                             loading="lazy"
                         />
@@ -229,16 +229,16 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-1-9.png"
                                     alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-10.png"
                                     alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -248,8 +248,8 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-1-11.png"
                                     alt="Project detail 8"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -275,16 +275,16 @@ export default function Project1() {
                                 <Image
                                     src="/projects_images/details-1-1-13.png"
                                     alt="Project detail 7"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
                                 <Image
                                     src="/projects_images/details-1-1-14.png"
                                     alt="Project detail 8"
-                                    width={1200}
-                                    height={800}
+                                    width={4800}
+                                    height={3200}
                                     className="w-full h-auto"
                                     loading="lazy"
                                 />
@@ -310,32 +310,32 @@ export default function Project1() {
                                     <Image
                                         src="/projects_images/details-1-1-15.png"
                                         alt="Project detail 7"
-                                        width={1200}
-                                        height={800}
+                                        width={4800}
+                                        height={3200}
                                         className="w-full h-auto"
                                         loading="lazy"
                                     />
                                     <Image
                                         src="/projects_images/details-1-1-17.png"
                                         alt="Project detail 7"
-                                        width={1200}
-                                        height={800}
+                                        width={4800}
+                                        height={3200}
                                         className="w-full h-auto"
                                         loading="lazy"
                                     />
                                     <Image
                                         src="/projects_images/details-1-1-18.png"
                                         alt="Project detail 7"
-                                        width={1200}
-                                        height={800}
+                                        width={4800}
+                                        height={3200}
                                         className="w-full h-auto"
                                         loading="lazy"
                                     />
                                     <Image
                                         src="/projects_images/details-1-1-19.png"
                                         alt="Project detail 7"
-                                        width={1200}
-                                        height={800}
+                                        width={4800}
+                                        height={3200}
                                         className="w-full h-auto"
                                         loading="lazy"
                                     />
