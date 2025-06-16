@@ -39,12 +39,12 @@ export default function Home() {
             layers={[
                 {
                     image: '/static/banner-background.svg',
-                    speed: -80,
+                    speed: -10,
                     opacity: [0, 0], // Reduced opacity
                 },
                 {
                     image: '/static/banner-foreground.svg',
-                    speed: -200,
+                    speed: -20,
                     opacity: [0.05, 0.05], // Reduced opacity
                     className: 'w-full object-cover',
                 },
