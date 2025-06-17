@@ -41,7 +41,7 @@ export default function Project2() {
                             }}
                             className="button text-[#2d8c61]"
                         >
-                            {isExpanded ? 'Show Less ↑' : 'Read More ↓'}
+                            {isExpanded ? 'Show less ↑' : 'Read more ↓'}
                         </button>
                     </div>
                     <div className="flex-[0.6] w-full">
