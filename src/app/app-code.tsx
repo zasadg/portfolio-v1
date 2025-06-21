@@ -56,7 +56,7 @@ export default function Code() {
                                     <div className="text-md pb-16">
                                         A space shooting games for scoring points and compete with coworkers
                                     </div>
-                                    <a href="#" className="underline text-white font-semibold text-lg  hover:text-purple-200 transition-colors">View project →</a>
+                                    <a href="https://knm-gamma.vercel.app/Others/Side-quest" className="underline text-white font-semibold text-lg  hover:text-purple-200 transition-colors">View project →</a>
                                 </div>
                                 {/* Image Section */}
                                 <div className="hidden md:block">

@@ -41,7 +41,7 @@ export default function SpeakingWriting() {
                             />
                         </a>
                         <div className="pt-4">
-                            <div className="font-semibold text-base text-white mb-1">Projects & journals</div>
+                            <div className="font-semibold text-base text-white mb-1">Projects journaling</div>
                             <div className="text-white text-sm">Projects details and notes in Obsidian</div>
                         </div>
                     </div>
